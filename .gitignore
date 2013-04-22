@@ -87,3 +87,6 @@ test/window-test
 *.ilk
 *.obj
 *.exe
+
+/win32-fixup.pl
+/msvc/pixman.vsprops

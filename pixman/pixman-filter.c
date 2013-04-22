@@ -28,7 +28,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <assert.h>
-#include <config.h>
+// Commented out by JE - 20-04-2013 #include <config.h>
 #include "pixman-private.h"
 
 typedef double (* kernel_func_t) (double x);
