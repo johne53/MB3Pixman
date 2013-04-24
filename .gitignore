@@ -88,5 +88,5 @@ test/window-test
 *.obj
 *.exe
 
-/win32-fixup.pl
 /msvc/pixman.vsprops
+/win32-fixup.pl.in
