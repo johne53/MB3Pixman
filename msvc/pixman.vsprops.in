@@ -17,6 +17,10 @@
 		Value="@GlibBuildRootFolder@"
 	/>
 	<UserMacro
+		Name="CairoBuildProjectFolder"
+		Value="@CairoBuildProjectFolder@"
+	/>
+	<UserMacro
 		Name="GenericIncludeFolder"
 		Value="@GenericIncludeFolder@"
 	/>
