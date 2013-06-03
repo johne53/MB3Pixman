@@ -196,7 +196,7 @@
 				AdditionalOptions="/FI$(TargetSxsFolder)\targetsxs.h"
 				Optimization="0"
 				AdditionalIncludeDirectories=".;..\pixman;.."
-				PreprocessorDefinitions="_SECURE_SCL=0;_HAS_ITERATOR_DEBUGGING=0;WIN32;DEBUG;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
+				PreprocessorDefinitions="WIN32;DEBUG;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -222,83 +222,6 @@
 			<Tool
 				Name="VCLibrarianTool"
 				OutputFile="$(OutDir)\$(LibPrefix)$(ProjectName)$(LibSuffix)D.lib"
-				SuppressStartupBanner="true"
-			/>
-			<Tool
-				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				SuppressStartupBanner="true"
-				OutputFile=".\Debug\libpixman_1/libpixman_1.bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-				CommandLine=""
-			/>
-		</Configuration>
-		<Configuration
-			Name="Debug 32 with Secure SCL|Win32"
-			OutputDirectory="$(CairoBuildProjectFolder)\$(ConfigurationName)\lib"
-			IntermediateDirectory="$(CairoBuildProjectFolder)\$(ConfigurationName)\obj\$(ProjectName)"
-			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops;.\pixman.vsprops"
-			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-			/>
-			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalOptions="/FI$(TargetSxsFolder)\targetsxs.h"
-				Optimization="0"
-				AdditionalIncludeDirectories=".;..\pixman;.."
-				PreprocessorDefinitions="_SECURE_SCL=1;_HAS_ITERATOR_DEBUGGING=1;WIN32;DEBUG;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
-				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
-				RuntimeLibrary="3"
-				StructMemberAlignment="0"
-				RuntimeTypeInfo="false"
-				PrecompiledHeaderFile=""
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="3"
-				CompileAs="1"
-			/>
-			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_DEBUG"
-				Culture="2057"
-			/>
-			<Tool
-				Name="VCPreLinkEventTool"
-			/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile="$(OutDir)\$(LibPrefix)$(ProjectName)$(LibSuffix)SCLD.lib"
 				SuppressStartupBanner="true"
 			/>
 			<Tool
