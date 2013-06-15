@@ -7,7 +7,7 @@ $major = 0;
 $minor = 30;
 $micro = 0;
 $binary_age = 300;
-$interface_age = 0;
+$interface_age = 1;
 $current_minus_age = 0;
 
 sub process_file
