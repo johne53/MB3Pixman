@@ -1,14 +1,14 @@
 #! e:/program files/perl/bin/perl.exe
-#  version info can be found in 'pixman-version.h'
+#  version info can be found in 'configure.ac'
 
 require "../local-paths.lib";
 
 $major = 0;
-$minor = 29;
-$micro = 3;
-$binary_age = 293;
+$minor = 30;
+$micro = 0;
+$binary_age = 300;
 $interface_age = 0;
-$current_minus_age = 1;
+$current_minus_age = 0;
 
 sub process_file
 {
