@@ -46,7 +46,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories=".;..\pixman;.."
-				PreprocessorDefinitions="_SECURE_SCL=0;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
+				PreprocessorDefinitions="_SECURE_SCL=0;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;USE_X86_MMX=1;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
 				StringPooling="false"
 				RuntimeLibrary="2"
 				EnableEnhancedInstructionSet="1"
@@ -123,7 +123,7 @@
 				AdditionalOptions="/FI$(TargetSxsFolder)\targetsxs.h"
 				Optimization="0"
 				AdditionalIncludeDirectories=".;..\pixman;.."
-				PreprocessorDefinitions="_SECURE_SCL=0;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
+				PreprocessorDefinitions="_SECURE_SCL=0;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;USE_X86_MMX=1;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
 				StringPooling="false"
 				RuntimeLibrary="2"
 				EnableEnhancedInstructionSet="1"
@@ -198,7 +198,7 @@
 				AdditionalOptions="/FI$(TargetSxsFolder)\targetsxs.h"
 				Optimization="0"
 				AdditionalIncludeDirectories=".;..\pixman;.."
-				PreprocessorDefinitions="WIN32;DEBUG;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
+				PreprocessorDefinitions="WIN32;DEBUG;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_WINDOWS;PACKAGE;USE_X86_MMX=1;CAIRO_HAS_WIN32_SURFACE=1;CAIRO_HAS_WIN32_FONT=1;G_LOG_DOMAIN=\&quot;Cairo\&quot;"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -330,6 +330,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\pixman\pixman-mmx.c"
+				>
+			</File>
+			<File
 				RelativePath="..\pixman\pixman-noop.c"
 				>
 			</File>
@@ -359,6 +363,10 @@
 			</File>
 			<File
 				RelativePath="..\pixman\pixman-sse2.c"
+				>
+			</File>
+			<File
+				RelativePath="..\pixman\pixman-ssse3.c"
 				>
 			</File>
 			<File
