@@ -27,6 +27,7 @@
 #include <config.h>
 #endif
 
+#if 0 /* Commented out by JE - 05-10-2013. Awaiting 'tmmintrin.h' for SSSE3 extensions (most probably in a later version of MSVC) */
 #include <stdlib.h>
 #include <mmintrin.h>
 #include <xmmintrin.h>
@@ -349,3 +350,4 @@ _pixman_implementation_create_ssse3 (pixman_implementation_t *fallback)
 
     return imp;
 }
+#endif /* JE - 05-10-2013 */

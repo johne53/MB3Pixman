@@ -1,4 +1,4 @@
-#include "utils.h"
+#include <config.h>
 
 #ifndef HAVE_PTHREADS
 
@@ -12,6 +12,7 @@ int main ()
 
 #include <stdlib.h>
 #include <pthread.h>
+#include "utils.h"
 
 typedef struct
 {
