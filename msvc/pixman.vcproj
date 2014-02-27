@@ -165,7 +165,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy /Y &quot;..\pixman\pixman.h&quot; &quot;$(GenericIncludeFolder)\pixman-1&quot;&#x0D;&#x0A;copy /Y &quot;..\pixman\pixman-version.h&quot; &quot;$(GenericIncludeFolder)\pixman-1&quot;&#x0D;&#x0A;copy /Y &quot;..\pixman-1.pc&quot; &quot;$(GenericLibraryFolder)\pkgconfig&quot;&#x0D;&#x0A;"
+				CommandLine="mkdir &quot;$(GenericLibraryFolder)\pkgconfig&quot; 2&gt; NUL&#x0D;&#x0A;mkdir &quot;$(GenericIncludeFolder)\pixman-1&quot; 2&gt; NUL&#x0D;&#x0A;copy /Y &quot;..\pixman\pixman.h&quot; &quot;$(GenericIncludeFolder)\pixman-1&quot;&#x0D;&#x0A;copy /Y &quot;..\pixman\pixman-version.h&quot; &quot;$(GenericIncludeFolder)\pixman-1&quot;&#x0D;&#x0A;copy /Y &quot;..\pixman-1.pc&quot; &quot;$(GenericLibraryFolder)\pkgconfig&quot;&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
