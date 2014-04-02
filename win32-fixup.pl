@@ -8,8 +8,8 @@ $major = 0;
 $minor = 32;
 $micro = 5;
 $binary_age = 3205;
-$interface_age = 0;
-$current_minus_age = 5;
+$interface_age = 5;
+$current_minus_age = 1;
 $exec_prefix = "lib";
 
 sub process_file
