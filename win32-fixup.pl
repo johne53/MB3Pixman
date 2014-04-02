@@ -9,7 +9,7 @@ $minor = 33;
 $micro = 1;
 $binary_age = 3301;
 $interface_age = 1;
-$current_minus_age = 0;
+$current_minus_age = 1;
 $exec_prefix = "lib";
 
 sub process_file
