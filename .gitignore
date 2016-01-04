@@ -53,3 +53,6 @@ test/trap-crasher
 *.ilk
 *.obj
 *.exe
+
+/msvc/pixman.vsprops
+/win32-fixup.pl.in
