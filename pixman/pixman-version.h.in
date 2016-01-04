@@ -31,6 +31,10 @@
 #  error pixman-version.h should only be included by pixman.h
 #endif
 
+#ifdef _MSC_VER /* Added by JE - 20-04-2013 */
+#pragma warning (disable:4244) /* 'possible loss of data' during type conversion' */
+#endif
+
 #define PIXMAN_VERSION_MAJOR @PIXMAN_VERSION_MAJOR@
 #define PIXMAN_VERSION_MINOR @PIXMAN_VERSION_MINOR@
 #define PIXMAN_VERSION_MICRO @PIXMAN_VERSION_MICRO@
