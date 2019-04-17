@@ -3,12 +3,12 @@
 
 require "../local-paths.lib";
 
-$pixman_version = "0.38.0";
+$pixman_version = "0.38.5";
 $major = 0;
 $minor = 38;
-$micro = 0;
-$binary_age = 3800;
-$interface_age = 0;
+$micro = 5;
+$binary_age = 3805;
+$interface_age = 5;
 $current_minus_age = 1;
 $exec_prefix = "lib";
 
